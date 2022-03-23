@@ -189,12 +189,12 @@ Do the following with above problem.
 */
 
 // - Write a Function Declaration
-function oddOrEven1(n){
-  return (n%2==0)?`Number is even`:`Number is odd`
+function oddOrEven1(n) {
+  return (n % 2 == 0) ? `Number is even` : `Number is odd`
 }
 // - Write an anonymous Function Expression
-let oddOrEven2 = function(n){
-  return (n%2==0) ? `Number is even` : `Number is odd`
+let oddOrEven2 = function (n) {
+  return (n % 2 == 0) ? `Number is even` : `Number is odd`
 
 }
 // - Write an named Function Expression
@@ -203,12 +203,13 @@ let oddOrEven5 = function oe(n) {
 
 }
 // - Write an Arrow Function without curly brackets (hint: use ternary operator)
-let oddOrEven3 = (n) => (n % 2 == 0)?`Number is even` : `Number is odd`
+let oddOrEven3 = (n) => (n % 2 == 0) ? `Number is even` : `Number is odd`
 // - Write an Arrow Function with curly brackets
-let oddOrEven4 = (n) =>{return (n % 2 == 0) ? `Number is even` : `Number is odd`}
+let oddOrEven4 = (n) => { return (n % 2 == 0) ? `Number is even` : `Number is odd` }
 // - Execute the function
 console.log(oddOrEven2(45))
 // - Execute the function and store the return value in a variable
 let vaar = oddOrEven2(45)
 // - What is the typeof returnValue
 console.log(typeof vaar)
+// done
