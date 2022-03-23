@@ -81,20 +81,20 @@ and return sum or product of 1,…,n. If user enters any other value than `sum` 
 
 function sumOrProductOfN(n, operation) {
   // Your code goes here
-  if (operation =="product") {
+  if (operation == "product") {
     let product = 1
     for (i = 1; i <= n; i++) {
       product *= i
-    }return product
+    } return product
   }
   else if (operation == "sum") {
-    let sum = 0 
+    let sum = 0
     for (i = 1; i <= n; i++) {
       sum += i
-    }return sum
+    } return sum
   }
-  else{
-   alert("not valid")
+  else {
+    alert("not valid")
 
   }
 }
@@ -110,9 +110,9 @@ sumOrProductOfN(4, 'product'); // 24
 function sumOfN(n) {
   // Your code goes here
   let sum = 0
-  for(i=1; i<=n; i++){
-     sum += i 
-  }return sum
+  for (i = 1; i <= n; i++) {
+    sum += i
+  } return sum
 }
 
 /*
@@ -122,7 +122,7 @@ function sumOfN(n) {
   // Your code goes here
   let sum = 0
   for (i = 1; i <= n; i++) {
-    if(i%5==0 || i%7==0){
+    if (i % 5 == 0 || i % 7 == 0) {
       sum += i
     }
   } return sum
@@ -133,9 +133,9 @@ function sumOfN(n) {
 8. 🎖Write a function `min` that takes two arguments and returns their minimum.
 */
 
-function min(a,b) {
+function min(a, b) {
   // Your code goes here
-  return (a<b)?a:b
+  return (a < b) ? a : b
 }
 
 min(0, 10);
@@ -149,3 +149,4 @@ function typeCheck(n) {
   // Your code goes here
   return typeof n
 }
+// done
