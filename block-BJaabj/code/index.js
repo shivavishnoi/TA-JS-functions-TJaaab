@@ -1,9 +1,9 @@
 /*
 1. Create a function named `sayHello` that alerts a message `Hello World!`.
 */
-function hello(){
+function hello() {
   alert("hello-world")
-} 
+}
 hello()
 /*
 2. Create a function named `fullName` with the following steps:
@@ -13,10 +13,10 @@ hello()
   - Concat the value of fistName and lastName and store it in another variable named `fullName`.
   - Alert `fullName`
 */
-function fullName(){
+function fullName() {
   let firstName = prompt("enter first name")
   let lastName = prompt("enter last name")
-  let fullName = firstName+" "+lastName
+  let fullName = firstName + " " + lastName
   alert(fullName)
 }
 fullName()
@@ -47,10 +47,10 @@ fullName()
   9 * 9 = 81
   9 * 10 = 90
 */
-function getTable(){
+function getTable() {
   let num = +prompt("enter a number")
-  for(i=1; i<=10;i++){
-    console.log(`${num} * ${i} = ${num*i}`)
+  for (i = 1; i <= 10; i++) {
+    console.log(`${num} * ${i} = ${num * i}`)
   }
 }
 getTable()
@@ -60,12 +60,12 @@ getTable()
   - Prompts a message saying `Enter a year` and store the value into variable named`year`
   - Alert `[year] is a leap year` otherwise `[year] is not a leap year`
 */
-function isLeapYear(){
+function isLeapYear() {
   let year = +prompt("enter a year")
-  if(year%4==0){
+  if (year % 4 == 0) {
     alert("leap year")
   }
-  else{
+  else {
     alert("not a leap year")
   }
 }
@@ -77,13 +77,14 @@ isLeapYear()
   - Alert `The factorial of [number] is [factorial]`
 
 */
-function getFactorial(){
+function getFactorial() {
   let number = +prompt("enter  a number for factorial")
   let factorial = 1
-  for(i=number; i>=1; i--){
-     factorial = factorial * i
+  for (i = number; i >= 1; i--) {
+    factorial = factorial * i
   }
   alert(factorial)
 }
 getFactorial()
+// done
 
